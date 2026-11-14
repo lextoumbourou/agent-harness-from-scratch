@@ -1,6 +1,6 @@
 # Agent harness from scratch
 
-A minimal coding agent harness in one Python file, built step by step in [Building an agent harness from scratch to pass Ian Goodfellow's intelligence test](https://notesbylex.com/building-an-agent-harness-from-scratch) on notesbylex.com.
+A minimal coding agent harness in one Python file, built step by step in [Building an Agent Harness From Scratch](https://notesbylex.com/building-an-agent-harness-from-scratch) on notesbylex.com.
 
 It has the parts most coding harnesses share: an agent loop, a model wrapper (GPT-6 Luna through the OpenAI Responses API), four tools (read, write, edit and bash), context compaction, a safety classifier, and support for `AGENTS.md` context files and skills. All of it is in `harness.py`, under 500 lines including comments.
 
